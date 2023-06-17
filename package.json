@@ -1,0 +1,20 @@
+{
+  "name": "library-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "sojibdas400 <sojibdas400@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "@koa/cors": "^4.0.0",
+    "dotenv": "^16.3.0",
+    "esm": "^3.2.25",
+    "koa": "^2.14.2",
+    "koa-bodyparser": "^4.4.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^12.0.0"
+  }
+}
